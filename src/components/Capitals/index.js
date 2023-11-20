@@ -39,7 +39,7 @@ class Capitals extends Component {
     )
     console.log(filtering)
     console.log(filtering.id)
-    this.setState({Country: filtering.country})
+    this.setState({Country: filtering[0].country})
   }
 
   render() {
